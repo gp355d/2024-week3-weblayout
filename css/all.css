@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *, *::after, *::before {
   box-sizing: border-box;
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
 }
 body{
   font-family: Roboto, 'Noto Sans TC', serif;
@@ -67,6 +67,9 @@ a{
 .text-primary{
   color: #650300;
 }
+.text-secondary{
+  color: #AA0601;
+}
 .text-color{
   color: #fff;
 }
@@ -119,7 +122,13 @@ a{
 .logo img{
   width: 80px;
 }
+.header > .container{
+  max-width: 100%;
+}
 /*banner*/
+.banner > .container{
+  max-width: 100%;
+}
 .banner{
   background-image: url(../img/home-header.png);
   background-repeat: no-repeat;
@@ -289,6 +298,7 @@ a{
 .text input[type="text"],
 .text textarea{
   width: 100%;
+  background-color: #FBF2F2;
 }
 .text textarea{
   padding: 6px 12px;
@@ -452,6 +462,9 @@ a{
   }
   .fz-sm-6{
     font-size: 48px;
+  }
+  .fz-sm-7{
+    font-size: 64px;
   }
   .mr-sm-0{
     margin-right: 0;
